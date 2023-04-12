@@ -1,0 +1,107 @@
+.container{
+    width: 400px;
+    display: grid;
+}
+.title {
+    z-index: 100;
+    margin-left: 22%;
+    margin-top: 3%;
+    position: absolute;
+    overflow: hidden;
+    border-right: 2px solid;
+    animation: typing 1.5s steps(30, end) forwards, blinking 1s infinite;
+    top: 8%;
+    padding-bottom: 4.5%;
+    bottom: 88%;
+}
+
+@keyframes typing {
+from { width: 0%}
+to { width: 35% }
+}
+
+@keyframes blinking {
+0% {border-color: transparent}
+50% {border-color: white}
+100% {border-color: transparent}
+}
+      
+
+@keyframes ryu{
+    from   {color: #243e36;}
+    to {color: #f1f7ed;}
+}
+.description{
+    padding-right: 7%;
+    margin-top: 13%;
+    margin-left: 25%;
+    font-size: 110%;
+    text-indent:5%;
+    animation-name: ryu;
+    animation-duration: 1s;
+}
+
+.codingbuddy{
+    margin-top: 10%;
+    margin-left: 43%;
+    width: 30%;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.cb{
+    margin-left: 50%;
+    margin-top: 10%;
+    object-fit: center;
+    font-size: 90%;
+    margin-bottom: -8%;
+    animation-name: ryu;
+    animation-duration: 5.8s;
+}
+
+.pronounciation{
+    z-index: 100;
+    margin-left: 110%;
+    min-width: 30%;
+    margin-top: -1%;
+    font-size: 90%;
+    display: inline-block;
+    margin-bottom: -15%;
+}
+.filling{
+    right: calc(0%);
+    bottom: calc(0%);
+    width: 100%;
+    position: absolute;
+    z-index: -100;
+    height: 100%;
+    background-color: white;
+    clip-path: polygon(30% 100%, 100% 30%, 100% 100%);
+    -webkit-transition: all 8s ease-in-out;
+    transition: 0;
+    animation-name: move;
+    animation-duration: 3s;
+}
+@keyframes move {
+    from {    margin-left: 24%;
+        margin-top: 7%;
+        width: 71%;
+        position: absolute;
+        height: 70%;
+        background-color: white;
+        -webkit-transition: all 10s ease-in-out;
+        transition: all 10s ease-in-out;
+        animation-name: move;
+        animation-duration: 3s;}
+    to    {right: calc(0%);
+    bottom: calc(0%);
+    width: 100%;
+    position: absolute;
+    z-index: -100;
+    height: 100%;
+    background-color: white;
+    clip-path: polygon(30% 100%, 100% 30%, 100% 100%);
+    -webkit-transition: all 8s ease-in-out;
+    transition: 0;}
+}

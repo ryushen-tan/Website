@@ -1,0 +1,22 @@
+.flex-box{
+    display: flex;
+    flex-direction: row;
+}
+.left-section{
+    width: 20%;
+    display: flex;
+}
+.middle-section{
+    flex: 2;
+    bottom: 0;
+}
+.right-section{
+    flex: 1;
+    /*background-color: black;*/
+}
+body{
+    background-color: #22223b;
+    color: #f1f7ed;
+    font-family: 'Montserrat', sans-serif;
+    
+}

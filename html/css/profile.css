@@ -1,0 +1,25 @@
+.left-square{
+    width: 20%;
+    height: 16%;
+    border: 2px solid #f1f7ed;
+    margin-top: 23%;
+    margin-left: 27%;
+}
+.right-square{
+    width: 20%;
+    height: 16%;
+    border: 2px solid #f1f7ed;
+    margin-top: -8%;
+    margin-left: 53%;
+    margin-bottom: 15%;
+}
+.profile-picture{
+    margin-top: -8%;
+    margin-left: 32%;
+    width: 36%;
+    height: 30%;
+    object-fit: cover;
+    cursor: crosshair;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}

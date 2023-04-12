@@ -1,0 +1,54 @@
+.NAV-bar{
+    justify-content: center;
+    display: inline-block;
+    position: fixed;
+    left: 4%;
+    bottom: 0;
+    top: 0;
+    border: 3px solid #f1f7ed;
+    border-bottom-color: #243e36;
+    border-top-color: #243e36;
+    width: 16%;
+    text-align: center;
+}
+.nav{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #22223b;
+    color: #f1f7ed;
+    font-size: 20px;
+    border-bottom: #f1f7ed;
+    border-top: #f1f7ed;
+    border-right: #243e36;
+    border-left: #243e36;
+    width: 100%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 3%;
+}
+.nav:hover{
+    opacity: 0.7;
+}
+.nav:active{
+    opacity: 0.4;
+    box-shadow: rgba(255, 0, 0, 0.9)
+}
+.ryulogo:hover{
+    opacity: 0.7;
+}
+.ryulogo:active{
+    opacity: 0.4;
+    box-shadow: rgba(255, 0, 0, 0.9)
+}
+.ryulogo{
+    margin-bottom: 43%;
+    width: 30%;
+    height: 15%;
+}
+.ryulogo img{
+    width: 200%;
+    margin-top: 65%;
+    margin-left: 65%;
+}
